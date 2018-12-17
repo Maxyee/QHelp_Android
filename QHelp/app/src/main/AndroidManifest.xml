@@ -19,7 +19,8 @@
         <activity android:name=".DivisionActivity" />
         <activity android:name=".ProblemsActivity" />
         <activity android:name=".EverythingActivity" />
-        <activity android:name=".DhakaActivity"></activity>
+        <activity android:name=".DhakaActivity" />
+        <activity android:name=".HeadrelatedActivity"></activity>
     </application>
 
 </manifest>
