@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".DivisionActivity" />
-        <activity android:name=".ProblemsActivity"></activity>
+        <activity android:name=".ProblemsActivity" />
+        <activity android:name=".EverythingActivity" />
+        <activity android:name=".DhakaActivity"></activity>
     </application>
 
 </manifest>

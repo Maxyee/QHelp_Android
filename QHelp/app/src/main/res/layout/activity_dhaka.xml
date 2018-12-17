@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DhakaActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="400dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="4dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="68dp"
+        android:layout_height="33dp"
+        android:text="QHelp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <SearchView
+        android:layout_width="57dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="9dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="61dp"
+        android:layout_height="33dp"
+        android:text="ঢাকা"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="159dp"
+        android:layout_height="50dp"
+        android:text="সকল"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="258dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="197dp"
+        android:layout_height="49dp"
+        android:text="আপনার সমস্যা "
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+
+</android.support.constraint.ConstraintLayout>
