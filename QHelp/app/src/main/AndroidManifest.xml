@@ -20,7 +20,8 @@
         <activity android:name=".ProblemsActivity" />
         <activity android:name=".EverythingActivity" />
         <activity android:name=".DhakaActivity" />
-        <activity android:name=".HeadrelatedActivity"></activity>
+        <activity android:name=".HeadrelatedActivity" />
+        <activity android:name=".Doctor"></activity>
     </application>
 
 </manifest>
