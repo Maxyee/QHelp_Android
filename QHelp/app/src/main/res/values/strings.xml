@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QHelp</string>
+    <string name="title_activity_maps_doctor">Map</string>
 </resources>
