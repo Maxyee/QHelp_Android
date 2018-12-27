@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">QHelp</string>
     <string name="title_activity_maps_doctor">Map</string>
+    <string name="google_maps_API_key">AIzaSyCXvTWMQKNWe9VKNkKt3umxCllDwBNMJj4</string>
 </resources>
