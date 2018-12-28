@@ -61,4 +61,7 @@ public class HomeActivity extends AppCompatActivity {
         return false;
     }
 
+    // if we want to go to division activity
+    
+
 }

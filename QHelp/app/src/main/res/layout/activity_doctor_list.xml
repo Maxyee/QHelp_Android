@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorListActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="400dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="4dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="68dp"
+        android:layout_height="33dp"
+        android:text="QHelp"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <SearchView
+        android:layout_width="57dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="9dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="242dp"
+        android:layout_height="38dp"
+        android:text="ঢাকা মেডিকেল কলেজ"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:text="ডাক্তারের তালিকা"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="134dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="47dp"
+        app:srcCompat="@color/colorPrimary"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="133dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="62dp"
+        android:layout_height="33dp"
+        android:text="ম্যাপ"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="141dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="352dp"
+        android:layout_height="36dp"
+        android:text="ডাঃ মাহাবুবুল রাহাত(মেডিসিন বিশেষজ্ঞ ও হৃদ রোগ)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="191dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="350dp"
+        android:layout_height="32dp"
+        android:text="ডাঃ মোঃ মোয়াজ্জেম হোসেন (মেডিসিন)"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="239dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="350dp"
+        android:layout_height="34dp"
+        android:text="ডাঃ রৌশনী জাহান (বক্ষব্যাধি)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="283dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="348dp"
+        android:layout_height="32dp"
+        android:text="ডাঃউম্মে শায়লা রুমকি(ফিজিক্যাল থেরাপি)"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="324dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="350dp"
+        android:layout_height="33dp"
+        android:text="ডাঃ কুহেলিকা (নিউরোলজি)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="368dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="349dp"
+        android:layout_height="35dp"
+        android:text="ডাঃ পুজা(নাক কান গলা)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="411dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="348dp"
+        android:layout_height="37dp"
+        android:text="ডাঃ হাসিব মোফাজ্জল(গাইনি এবং অবস)"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="456dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        android:text="ডাঃ তুষার রহমান(শিশু)"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="500dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
