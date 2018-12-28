@@ -23,13 +23,16 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        if (isServicesOK()){
+        configureStartButton();
+        /*if (isServicesOK()){
             init();
-        }
+        }*/
+
+
     }
 
     private void init(){
-        Button btnMap = (Button) findViewById(R.id.button2);
+        Button btnMap = (Button) findViewById(R.id.button);
         btnMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,6 +65,14 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     // if we want to go to division activity
-    
+    private void configureStartButton(){
+        Button btnStart = (Button)findViewById(R.id.startButton);
+        btnStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, DivisionActivity.class));
+            }
+        });
+    }
 
 }
